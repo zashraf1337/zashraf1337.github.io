@@ -50,7 +50,14 @@ a{text-decoration:none;color:inherit}
 footer{margin-top:34px;text-align:center;font-size:12.5px;color:var(--muted);line-height:1.8}
 footer a{color:var(--accent);font-weight:600}
 
-@media (max-width:760px){.grid{grid-template-columns:1fr}.hero h1{font-size:26px}}
+.section-label{margin:34px 4px 6px;font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#7a8194}
+.grid3{grid-template-columns:1fr 1fr 1fr}
+.tile.vid{border-left-color:#dc2626;min-height:158px}
+.tile.vid .ic{background:#fdeaea}
+.tile.vid .tag{color:#dc2626;background:#fdeaea}
+.tile.vid .go{color:#dc2626}
+
+@media (max-width:760px){.grid,.grid3{grid-template-columns:1fr}.hero h1{font-size:26px}}
 </style>
 </head>
 <body>
@@ -62,6 +69,7 @@ footer a{color:var(--accent);font-weight:600}
     <p>A single launchpad for the things I track — big ideas across frontier tech, the next trillion-dollar opportunities, the AI-security startup landscape, and live market signals.</p>
   </header>
 
+  <h2 class="section-label">Dashboards</h2>
   <main class="grid">
 
     <a class="tile t1" href="https://zashraf1337.github.io/big-ideas/" target="_blank" rel="noopener">
@@ -105,6 +113,41 @@ footer a{color:var(--accent);font-weight:600}
     </a>
 
   </main>
+
+  <h2 class="section-label">Video series · CR Labs</h2>
+  <div class="grid grid3">
+
+    <a class="tile vid" href="https://crlab.ca/videos/inside-a-large-language-model/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="#dc2626"><path d="M8 5v14l11-7z"/></svg></span>
+        <span class="tag">7 videos</span>
+      </div>
+      <h2>Inside a Large Language Model</h2>
+      <p>How modern AI is built, trained, shrunk and run — a field guide, one stage at a time.</p>
+      <div class="go">Watch <span aria-hidden="true">&rarr;</span><span class="host">crlab.ca</span></div>
+    </a>
+
+    <a class="tile vid" href="https://crlab.ca/videos/under-the-llm-hood/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="#dc2626"><path d="M8 5v14l11-7z"/></svg></span>
+        <span class="tag">12 videos</span>
+      </div>
+      <h2>Under the LLM Hood</h2>
+      <p>A closer look at the machinery inside a language model — no math wall.</p>
+      <div class="go">Watch <span aria-hidden="true">&rarr;</span><span class="host">crlab.ca</span></div>
+    </a>
+
+    <a class="tile vid" href="https://crlab.ca/videos/the-business-of-ai/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="#dc2626"><path d="M8 5v14l11-7z"/></svg></span>
+        <span class="tag">8 videos</span>
+      </div>
+      <h2>The Business of AI</h2>
+      <p>What AI means for the people paying for it: how the labs work and where the value is.</p>
+      <div class="go">Watch <span aria-hidden="true">&rarr;</span><span class="host">crlab.ca</span></div>
+    </a>
+
+  </div>
 
   <footer>
     Personal research hub · built and maintained by <a href="https://github.com/zashraf1337" target="_blank" rel="noopener">@zashraf1337</a><br>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zubair · Ideas &amp; Dashboards</title>
+<meta name="description" content="A hub linking Zubair's research dashboards: Big Ideas, the Next-Trillion idea tracker, the AI security startup tracker, and trading signals.">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f5f6fb;
+  --card:#ffffff;
+  --ink:#10131c;
+  --muted:#5b6172;
+  --line:#e6e8f0;
+  --accent:#4f46e5;
+  --accent-2:#0ea5a4;
+  --shadow:0 1px 2px rgba(16,19,28,.04),0 10px 30px rgba(16,19,28,.07);
+  --radius:18px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:30px 20px 60px}
+a{text-decoration:none;color:inherit}
+
+.hero{background:linear-gradient(135deg,#1e1b4b 0%,#3730a3 50%,#0e7490 100%);color:#fff;border-radius:var(--radius);padding:38px 34px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-70px;top:-70px;width:280px;height:280px;border-radius:50%;background:rgba(255,255,255,.07)}
+.hero .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700;opacity:.85}
+.hero h1{margin:8px 0 8px;font-size:32px;font-weight:800;letter-spacing:-.02em}
+.hero p{margin:0;max-width:620px;font-size:15.5px;opacity:.93}
+
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.tile{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);padding:22px 22px 20px;box-shadow:var(--shadow);transition:transform .15s ease,box-shadow .15s ease;min-height:172px}
+.tile:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(16,19,28,.05),0 16px 38px rgba(16,19,28,.12)}
+.tile.t2{border-left-color:var(--accent-2)}
+.tile.t3{border-left-color:#7c3aed}
+.tile.t4{border-left-color:#db2777}
+.tile .top{display:flex;align-items:center;gap:12px}
+.ic{width:40px;height:40px;border-radius:11px;background:#eef0fb;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.t2 .ic{background:#e6f6f5}.t3 .ic{background:#f1eafe}.t4 .ic{background:#fdeaf3}
+.ic svg{width:22px;height:22px}
+.tag{margin-left:auto;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);background:#eef0fb;padding:4px 10px;border-radius:999px}
+.t2 .tag{color:var(--accent-2);background:#e6f6f5}.t3 .tag{color:#7c3aed;background:#f1eafe}.t4 .tag{color:#db2777;background:#fdeaf3}
+.tile h2{margin:14px 0 6px;font-size:18px;font-weight:800;letter-spacing:-.01em}
+.tile p{margin:0;font-size:13.5px;color:var(--muted)}
+.tile .go{margin-top:auto;padding-top:14px;font-size:13px;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:6px}
+.t2 .go{color:var(--accent-2)}.t3 .go{color:#7c3aed}.t4 .go{color:#db2777}
+.tile .go .host{margin-left:auto;font-weight:500;color:#9aa0b0;font-size:11.5px}
+
+footer{margin-top:34px;text-align:center;font-size:12.5px;color:var(--muted);line-height:1.8}
+footer a{color:var(--accent);font-weight:600}
+
+@media (max-width:760px){.grid{grid-template-columns:1fr}.hero h1{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Research &amp; Dashboards</div>
+    <h1>Zubair · Ideas &amp; Dashboards</h1>
+    <p>A single launchpad for the things I track — big ideas across frontier tech, the next trillion-dollar opportunities, the AI-security startup landscape, and live market signals.</p>
+  </header>
+
+  <main class="grid">
+
+    <a class="tile t1" href="https://zashraf1337.github.io/big-ideas/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1h6c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2Z"/></svg></span>
+        <span class="tag">Weekly</span>
+      </div>
+      <h2>Big Ideas</h2>
+      <p>A living dashboard of big ideas and breakthroughs across frontier tech, refreshed every week.</p>
+      <div class="go">Open <span aria-hidden="true">&rarr;</span><span class="host">github.io/big-ideas</span></div>
+    </a>
+
+    <a class="tile t2" href="https://zashraf1337.github.io/big-ideas/next-trillion-tracker/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#0ea5a4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-7M21 8v5h-5"/></svg></span>
+        <span class="tag">New · Monthly</span>
+      </div>
+      <h2>Next-Trillion Idea Tracker</h2>
+      <p>Categories being built today that could compound into the next OpenAI-scale company — ranked through a builder's lens.</p>
+      <div class="go">Open <span aria-hidden="true">&rarr;</span><span class="host">…/next-trillion-tracker</span></div>
+    </a>
+
+    <a class="tile t3" href="https://zashraf1337.github.io/big-ideas/ai-security-startup-tracker/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.4 8.3-8 10-4.6-1.7-8-5-8-10V6l8-4Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <span class="tag">Tracker</span>
+      </div>
+      <h2>AI Security Startup Tracker</h2>
+      <p>The AI-security startup landscape — companies, funding, and positioning, kept current.</p>
+      <div class="go">Open <span aria-hidden="true">&rarr;</span><span class="host">…/ai-security-startup-tracker</span></div>
+    </a>
+
+    <a class="tile t4" href="https://coachzubair-trading-signals.netlify.app/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#db2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 3-3 3 3 5-6"/></svg></span>
+        <span class="tag">Live · External</span>
+      </div>
+      <h2>Trading Signals</h2>
+      <p>My live trading-signals and market dashboard, hosted on Netlify.</p>
+      <div class="go">Open <span aria-hidden="true">&rarr;</span><span class="host">coachzubair-trading-signals.netlify.app</span></div>
+    </a>
+
+  </main>
+
+  <footer>
+    Personal research hub · built and maintained by <a href="https://github.com/zashraf1337" target="_blank" rel="noopener">@zashraf1337</a><br>
+    Dashboards update on their own schedules · nothing here is investment advice.
+  </footer>
+
+</div>
+</body>
+</html>
